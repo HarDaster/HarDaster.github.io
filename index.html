@@ -1,191 +1,501 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Информация об авторе и описание проекта -->
-	<meta name="description" content="Порфолио">
-	<meta name="author" content="Иван">
-
-	<title>Портфолио</title>
-
-	<!-- Каскадная таблица стилей -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:100,300,400,500" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-
+	<title>Serajeo</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
-		<div class="row">
-			<div class="container">
-				<div class="header-text">
-					<h1 class="block-title">Делаю сайты <span>для вашего бизнеса</span></h1>
-					<p class="block-description text-description">
-						<span>Я Имя Фамилия</span> разрабатываю сайты для бизнеса. Продающие одностраничники, имиджевые сайты-визитки <span>или полноценные интернет-магазины.</span>
-					</p>
-					<a href="#" class="header-button">Примеры работ</a>
-					<a href="#" class="header-button header-button-o"> Обсудить проект
-					</a>
+		<div class="header-fon">	
+			<div class="container-header">
+				<h2 class="container-logo">sarajevo <span class="header-tochka">.</span></h2>
+				<p class="container-description">I’am your tag line</p>
+				<div class="wrapper">
+					<input type="checkbox" id="check-menu">
+	        		<label for="check-menu">MENU</label>
+					<nav class="topnav main-menu">
+						<a href="#">Home</a>
+						<a href="#">Features</a>
+						<a href="#">Works</a>
+						<a href="#">Team</a>
+						<a href="#">Contact</a>
+					</nav>
 				</div>
+			</div>
+		</div>
+		<div class="header-text">
+			<h1 class="header-logo">sarajevo <span class="logo-tochka">.</span></h1>
+			<p class="header-title"> <span>/creative</span> one page template.</p>
+			<p class="header-description">We are a team of professionals</p>
+		</div>
+		<div class="header-socseti">
+			<div class="socseti-icon">
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-dribbble"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
 			</div>
 		</div>
 	</header>
-	<section class="works">
-		<div class="row">
-			<div class="container">
-				<h2 class="block-title">Мои работы</h2>
-				<div class="works-items">
 
-					<!-- work item start -->
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/works/work-img-02.jpg" alt="image work">
+	<div class="features">
+		<div class="features-container">
+			<h2 class="features-headline">features</h2>
+			<div class="features-icon line-text">
+				<i class="far fa-heart"></i>
+			</div>
+		</div>
+		<div class="feautur-card">
+			<div class="features-card">
+				<div class="featur-card-img">
+					<img src="img/features-img/1.png" alt="иконка">
+				</div>
+				<div class="featur-text">
+					<h2>Development</h2>
+					<div class="featur-card-text">	
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="features-card">
+				<div class="featur-card-img">
+					<img src="img/features-img/2.png" alt="иконка">
+				</div>
+				<div class="featur-text">
+					<h2>Development</h2>
+					<div class="featur-card-text">	
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="features-card">
+				<div class="featur-card-img">
+					<img src="img/features-img/3.png" alt="иконка">
+				</div>
+				<div class="featur-text">
+					<h2>Development</h2>
+					<div class="featur-card-text">	
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="specification">
+		<div class="container">
+			<p class="specification-description">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+			</p>
+			<div class="specification-container">
+				<!-- левый блок -->
+				<div class="block-left">
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/customize.png" alt="">
 						</div>
-						<div class="work-text">
-							<p class="work-description">
-								Одностраничный сайт для рекламы нового 
-							термобелья российского производстваОдностраничный сайт для рекламы нового 
-							термобелья российского производства</p>
-							<a href="#" class="work-link">Подробнее</a>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
 						</div>
 					</div>
-					<!-- work item end -->
-
-					<!-- work item start -->
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/works/work-img-01.jpg" alt="image work">
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/time.png" alt="">
 						</div>
-						<div class="work-text">
-							<p class="work-description">Адаптивный сайт для службы доставок наборов
-							для похудения и детокса по Новосибирску</p>
-							<a href="#" class="work-link">Подробнее</a>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
 						</div>
 					</div>
-					<!-- work item end -->
-
-					<!-- work item start -->
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/works/work-img-01.jpg" alt="image work">
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/Music.png" alt="">
 						</div>
-						<div class="work-text">
-							<p class="work-description">Адаптивный сайт для службы доставок наборов
-							для похудения и детокса по Новосибирску</p>
-							<a href="#" class="work-link">Подробнее</a>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
 						</div>
 					</div>
-					<!-- work item end -->
+				</div>
+				<!-- центральный блок -->
+				<div class="block-middle">
+					<img src="img/features-img/phone.png" alt="">
+				</div>
 
-					<!-- work item start -->
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/works/work-img-01.jpg" alt="image work">
+				<!-- Правый блок -->
+				<div class="block-right">
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/support.png" alt="">
 						</div>
-						<div class="work-text">
-							<p class="work-description">Адаптивный сайт для службы доставок наборов
-							для похудения и детокса по Новосибирску</p>
-							<a href="#" class="work-link">Подробнее</a>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
 						</div>
 					</div>
-					<!-- work item end -->
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/send.png" alt="">
+						</div>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
+						</div>
+					</div>
+					<div class="specification-card">
+						<div class="specification-img">
+							<img src="img/features-img/camera.png" alt="">
+						</div>
+						<div class="specification-text">
+							<h2>Accusan timar</h2>
+							<div class="specification-card-text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="action">
-		<div class="row">
-			<div class="container">
-				<div class="action-container">
-					<div class="action-text">
-						<h2 class="block-title">Нужен сайт</h2>
-						<p class="block-description action-description">Если у вас есть задумки по сайту давайте обсудим их. Я сориентирую по срокам и стоимости </p>
+	<div class="works">
+		<div class="work-container">
+			<h2 class="work-headline">works</h2>
+			<div class="work-icon line-text">
+				<i class="far fa-heart"></i>	
+			</div>
+			<div class="work-description">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+			</div>
+			<div class="work-nav">
+				<ul class="menu-list">
+					<li>All</li>
+					<li>Branding</li>
+					<li>Web</li>
+					<li>Logo Design</li>
+					<li>Photography</li>
+				</ul>
+			</div>
+		</div>
+		<div class="portfolio-items">
+			<div class="portfolio-item">
+		        <img src="img/works-img/Layer_1.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_2.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_3.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_4.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_5.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_6.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_7.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="portfolio-item">
+		        <img src="img/works-img/Layer_8.png" alt="" class="portfolio-item__image">
+		        <div class="portfolio-item__overlay">
+		            <div class="portfolio-item__content">
+		                <div class="portfolio-item__icon"><i class="fa fa-search-plus"></i></div>
+		                <div class="portfolio-item__description">Hello world</div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<div class="may-team">
+		<div class="team-container">
+			<h2 class="team-headline">Meet Our Team</h2>
+			<div class="team-icon line-text">
+				<i class="far fa-heart"></i>	
+			</div>
+		</div>
+		<div class="team-description">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+		</div>
+	</div>
+		<div class="team-list">
+			<div class="team-1">
+				<figure>
+					<img src="img/team-img/Layer_24.png" class="member-img" alt="">
+					<figcaption class="member-wrap">
+						<div class="member-img-hover">
+							<div class="member-text">Nemo enim ipsam 
+								voluptatem quia voluptas <br> 
+								sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
+							<div class="social-icons">
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-facebook"></i>
+								<i class="fab fa-google-plus-square"></i>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+				<div class="about-member">
+					<p class="member-name">John Filmr Doe</p>
+					<p class="position">Managing Director</p>
+				</div>
+			</div>
+			<div class="team-2">
+				<figure>
+					<img src="img/team-img/Layer_25.png" class="member-img" alt="">
+					<figcaption class="member-wrap">
+						<div class="member-img-hover">
+							<div class="member-text">Nemo enim ipsam 
+								voluptatem quia voluptas <br> 
+								sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
+							<div class="social-icons">
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-facebook"></i>
+								<i class="fab fa-google-plus-square"></i>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+				<div class="about-member">
+					<p class="member-name">Chystine Hineu</p>
+					<p class="position">Lead Designer</p>
+				</div>
+			</div>
+			<div class="team-3">
+				<figure>
+					<img src="img/team-img/Layer_26.png" class="member-img" alt="">
+					<figcaption class="member-wrap">
+						<div class="member-img-hover">
+							<div class="member-text">Nemo enim ipsam 
+								voluptatem quia voluptas <br> 
+								sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
+							<div class="social-icons">
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-facebook"></i>
+								<i class="fab fa-google-plus-square"></i>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+				<div class="about-member">
+					<p class="member-name">Martin Matrone</p>
+					<p class="position">Lead Developer</p>
+				</div>
+			</div>
+			<div class="team-4">
+				<figure>
+					<img src="img/team-img/Layer_27.png" class="member-img" alt="">
+					<figcaption class="member-wrap">
+						<div class="member-img-hover">
+							<div class="member-text">Nemo enim ipsam 
+								voluptatem quia voluptas <br> 
+								sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</div>
+							<div class="social-icons">
+								<i class="fab fa-twitter-square"></i>
+								<i class="fab fa-facebook"></i>
+								<i class="fab fa-google-plus-square"></i>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+				<div class="about-member">
+					<p class="member-name">Steve Flaulkin</p>
+					<p class="position">Sr. UI Designer</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- some fun facts -->
+		<section class="fun-facts">
+				<div class="facts-container">
+					<h2 class="facts-headline">some fan facts</h2>
+					<div class="facts-icon line-text">
+						<i class="far fa-heart"></i>
 					</div>
-					<form action="#" class="action-form">
-						<input type="text" class="action-input" placeholder="e-mail">
-						<input type="submit" class="action-submit" value="Отправить">
+				</div>
+				<div class="weapper-about-us">
+					<div class="wrapper-about">
+						<div class="info-about">
+							<div class="static-block">
+								<img src="img/facts-img/2-layers.png" alt="иконка">
+							</div>
+							<div class="text-about">
+								<p class="about-static"><span>3200</span> <br> Hours of Work</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-about">
+						<div class="info-about">
+							<div class="static-block">
+								<img src="img/facts-img/icon-chas.png" alt="иконка">
+							</div>
+							<div class="text-about">
+								<p class="about-static"><span>3200</span> <br> Hours of Work</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-about">
+						<div class="info-about">
+							<div class="static-block">
+								<img src="img/facts-img/icon-child.png" alt="иконка">
+							</div>
+							<div class="text-about">
+								<p class="about-static"><span>3200</span> <br> Hours of Work</p>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-about">
+						<div class="info-about">
+							<div class="static-block">
+								<img src="img/facts-img/icon-rak.png" alt="">
+							</div>
+							<div class="text-about">
+								<p class="about-static"><span>3200</span> <br> Hours of Work</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- feeback -->
+		<div class="feedback">
+			<div class="feedback-cantainer">
+				<h2 class="feedback-headline">Let’s Discuss</h2>
+				<div class="team-icon line-text">
+					<i class="far fa-heart"></i>	
+				</div>
+				<p class="feedback-description">
+					Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+				</p>
+			</div>
+			<div class="feedback-wrap">
+				<div class="feedback-contact">
+					<h3>Cras at ultrices erat, sed vulputate!</h3>
+					<address>2345 Setwant natrer, 1234, <br> Washington. United States. <br>(401) 1234 567 <br>hello@brandi.com <br> ww.brandi.com</address>
+				</div>
+				<div class="feedback-form">
+					<h3 class="feedback-title-form">Say hello!</h3>
+					<form action="#" method="post" class="form-input">
+						<input class="input-name" type="text" name="name" placeholder="Name">
+						<input type="email" name="Email" placeholder="Email">
+						<textarea name="message" id="message" rows="1" placeholder="Message"></textarea>
+						<button class="feedback-submit" type="submit" value="submit">
+							<i class="far fa-envelope"></i>
+							<span class="mwssage">Send message</span>
+						</button>
 					</form>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="about">
-		<div class="row">
-			<div class="container">
-				<div class="about-container">
-					<div class="about-experience">
-						<h2 class="block-title">Про опыт</h2>
-						<p class="block-description about-description">Делать сайты я учился в Академии верстки на курсе «Веб-разработчик»</p>
-						<img src="img/certificat.jpg" class="about-img" alt="about-img">
-					</div>
-					<div class="about-text">
-						<h2 class="block-title">Связаться со мной</h2>
-						<div class="about-contacts">
-							<div class="contacts-item">
-								<div class="contact-name">Телефон:</div>
-								<div class="contact-value">
-									<a href="tel:8-888-888-88-88" class="contact-link" target="_blank">8-888-888-88-88</a>
-								</div>
-							</div>
-							<div class="contacts-item">
-								<div class="contact-name">E-mail:</div>
-								<div class="contact-value">
-									<a href="mailto:111@gmail.com" class="contact-link" target="_blank">111@gmail.com</a>
-								</div>
-							</div>
-							<div class="contacts-item">
-								<div class="contact-name">Vk:</div>
-								<div class="contact-value">
-									<a href="vk.com/username" class="contact-link" target="_blank">vk.com/username</a>
-								</div>
-							</div>
-							<div class="contacts-item">
-								<div class="contact-name">Fb:</div>
-								<div class="contact-value">
-									<a href="facebook.com/username" class="contact-link" target="_blank">facebook.com/username</a>
-								</div>
-							</div>
-							<div class="contacts-item">
-								<div class="contact-name">Git:</div>
-								<div class="contact-value">
-									<a href="github.com/username" class="contact-link" target="_blank">github.com/username</a>
-								</div>
-							</div>
-						</div>
-						<form action="#" class="about-form">
-							<input type="text" class="about-input"
-							placeholder="Имя Фамилия">
-							<input type="text" class="about-input"
-							placeholder="Телефон">
-							<input type="email" class="about-input"
-							placeholder="e-mail">
-							<input type="submit" class="about-submit"
-							value="Отправить">
-
-							<div class="form-check">
-								<input type="checkbox" class="about-input-checkbox">
-								<p class="form-description">Подтверждаю, что я ознакомлен и согласен с условиями <a href="#" class="form-link" target="_blank"> политики конфиденциальности </a></p>
-							</div>
-						</form>
-					</div>
+				<div class="social_feedback">
+					<i class="fab fa-behance feedback_becance"></i>
+					<i class="fab fa-twitter feedback_twitter"></i>
+					<i class="fab fa-dribbble feedback_dribbble"></i>
+					<i class="fab fa-facebook-f feedback_facebook"></i>
+					<i class="fab fa-google-plus-g feedback_google"></i>
 				</div>
 			</div>
 		</div>
-	</section>
 
-	<footer class="footer">
-		<div class="row">
-			<div class="container">
-				<p class="footer-text">2018, Сайт портфолио Имя Фамилия</p>
-				<a href="#" class="footer-link footer-politic">Политика конфиденциальности.</a>
-				<a href="#" class="footer-link">Договор оферты</a>
-			</div>
+		<!-- map -->
+
+		<div class="map">
+			<iframe src="https://yandex.ru/map-widget/v1/-/CCQ9YQ2e"></iframe>
 		</div>
-	</footer>
+
+		<!-- footer -->
+
+		<footer>
+			<div class="footer-container">
+				<div class="about-footer">
+					<h2 class="about-footer-headline">sarajevo <span class="footer-tochka">.</span></h2>
+					<p class="about-footer-description">eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="footer-subscrible">
+					<h2 class="footer-subscrible-title">Subscrible</h2>
+					<form action="#" class="footer-form">
+						<input type="text" class="footer-input">
+						<button class="footer-subscrible-button">
+							<i class="fas fa-long-arrow-alt-right"></i>
+						</button>
+					</form>
+					<p class="footer-subscrible-description">eusmod tempor incididunt ut labore et <br> dolore magna aliqua. </p>
+				</div>
+				<div class="footer-explore">
+					<h2 class="footer-explore-title">Explore</h2>
+					<div class="footer-href">
+						<a href="#">Envato</a>
+						<a href="#">Themecurve</a>
+						<a href="#">Kreativeshowcase</a>
+						<a href="#">Freebiescurve</a>
+						<a href="#">Themeforest</a>
+						<a href="#">Microsoft</a>
+						<a href="#">Google</a>
+						<a href="#">Yahoo</a>
+					</div>
+				</div>
+			</div>
+		</footer>
 </body>
 </html>
