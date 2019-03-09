@@ -286,6 +286,7 @@ li a {
 /*=======footer=========*/
 
 footer {
+    margin: 0 10%;
     background-color: #313131;
     text-align: center;
     padding-top: 60px;
