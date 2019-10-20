@@ -25,7 +25,7 @@ $(function(){
   });
 });
 
-function backToTop() {
+function btn_top() {
   let button = $('.btn_top');
   $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 50) {
@@ -40,4 +40,4 @@ function backToTop() {
   })
 }
 
-backToTop();
+btn_top();
