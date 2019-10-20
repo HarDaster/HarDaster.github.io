@@ -261,6 +261,7 @@ li {
 	background-color: transparent;
 	border-radius: 50%;
 	background-color: #b94949b8;
+	display: none;
 }
 
 .btn_top:hover,
